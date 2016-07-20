@@ -41,12 +41,18 @@ simhash.compare(string1, string2);
 ````
 
 ### Methods
+
+#### <a name="simhash"></a>.simhash(string)
+Return the simhash for the string 
+
 #### <a name="summary"></a>.summary(file1, file2)
 Compare two text strings using both simhash and jaccard index and print a summary
 
 #### <a name="compare"></a>.compare(file1, file2)
 Compare two text strings using both simhash and jaccard index
 
+#### <a name="compareSimhash"></a>.compareSimhash(simhash1, simhash2)
+Compare two simhash 
 
 #### <a name="hammingWeight"></a>.hammingWeight(number)
 
